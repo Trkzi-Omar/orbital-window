@@ -9,6 +9,7 @@
 	"mainImageAlt": "Orbital Window dashboard showing a satellite selection strip, orbit map, and upcoming pass cards for Casablanca.",
 	"color": "bg-blue-100",
 	"linkGithub": "https://github.com/Trkzi-Omar/orbital-window",
+	"linkLive": "https://orbital-window.vercel.app",
 	"technologies": [
 		"SvelteKit",
 		"TypeScript",
@@ -57,7 +58,6 @@
 		}
 	],
 	"notes": {
-		"linkLive": "Add the deployed URL once Orbital Window is hosted.",
 		"mainImage": "Upload project-assets/screenshots/orbital-window-home.png to Sanity and use the alt text above."
 	}
 }
