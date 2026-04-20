@@ -1,0 +1,63 @@
+{
+	"title": "Orbital Window",
+	"slug": {
+		"_type": "slug",
+		"current": "orbital-window"
+	},
+	"description": "Orbital Window is an aerospace observation dashboard that helps people search a city, compare recognizable satellites, and decide when a pass is actually worth stepping outside for using orbital data, cloud cover, and saved observing sites.",
+	"mainImageLocalPath": "project-assets/screenshots/orbital-window-home.png",
+	"mainImageAlt": "Orbital Window dashboard showing a satellite selection strip, orbit map, and upcoming pass cards for Casablanca.",
+	"color": "bg-blue-100",
+	"linkGithub": "https://github.com/Trkzi-Omar/orbital-window",
+	"technologies": [
+		"SvelteKit",
+		"TypeScript",
+		"Tailwind CSS",
+		"Drizzle ORM",
+		"SQLite",
+		"LibSQL",
+		"Playwright",
+		"satellite.js",
+		"CelesTrak API",
+		"Nominatim",
+		"Open-Meteo"
+	],
+	"featured": true,
+	"publishedAt": "2026-04-20T00:00:00.000Z",
+	"body": [
+		{
+			"_type": "block",
+			"style": "normal",
+			"children": [
+				{
+					"_type": "span",
+					"text": "Orbital Window turns satellite tracking into a practical, layman-friendly interface. Instead of making people decipher raw orbital data, it answers the question they actually care about: is there something worth watching from here tonight?"
+				}
+			]
+		},
+		{
+			"_type": "block",
+			"style": "normal",
+			"children": [
+				{
+					"_type": "span",
+					"text": "The app combines live TLE data from CelesTrak, location search through Nominatim, and cloud cover plus sunrise and sunset data from Open-Meteo. It then scores upcoming passes so the experience feels like a decision-making tool rather than a raw telemetry viewer."
+				}
+			]
+		},
+		{
+			"_type": "block",
+			"style": "normal",
+			"children": [
+				{
+					"_type": "span",
+					"text": "From a portfolio perspective, the project demonstrates aerospace curiosity, external API integration, local persistence with SQLite/libsql and Drizzle, custom data processing with satellite.js, and a polished frontend that is understandable to non-technical users."
+				}
+			]
+		}
+	],
+	"notes": {
+		"linkLive": "Add the deployed URL once Orbital Window is hosted.",
+		"mainImage": "Upload project-assets/screenshots/orbital-window-home.png to Sanity and use the alt text above."
+	}
+}
