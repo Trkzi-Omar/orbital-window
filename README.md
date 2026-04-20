@@ -2,6 +2,8 @@
 
 Orbital Window is a portfolio-ready aerospace MVP for people who want a practical answer to a simple question: _is there a satellite worth looking up for tonight?_
 
+Live demo: [orbital-window.vercel.app](https://orbital-window.vercel.app)
+
 It takes a real place on Earth, pulls live orbital and weather data, and turns that into a layman-friendly board with:
 
 - a curated set of recognizable satellites

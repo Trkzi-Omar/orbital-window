@@ -18,4 +18,4 @@ An aerospace dashboard that helps people decide when a satellite pass is actuall
 
 ## Live demo
 
-- Pending deployment
+- https://orbital-window.vercel.app
