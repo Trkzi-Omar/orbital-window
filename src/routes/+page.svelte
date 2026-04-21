@@ -181,8 +181,26 @@
 </svelte:head>
 
 <div class="orbital-page">
+	<div class="orbital-shell mb-5 sm:mb-7">
+		<div class="orbital-brandbar">
+			<div class="orbital-brandmark">
+				<span class="orbital-brandmark-code">OW</span>
+				<div>
+					<p class="orbital-brandmark-title">Orbital Window</p>
+					<p class="orbital-brandmark-copy">Public observation computer</p>
+				</div>
+			</div>
+
+			<div class="orbital-brandmeta">
+				<span class="orbital-data-pill">Ground track guided</span>
+				<span class="orbital-data-pill">Cloud-aware passes</span>
+				<span class="orbital-data-pill">Civilian sky log</span>
+			</div>
+		</div>
+	</div>
+
 	<HeroPanel
-		eyebrow="Orbital Window"
+		eyebrow="Observation console"
 		title="Find the next satellite pass that is actually worth looking up for."
 		lede="Orbital Window turns orbital data into a practical stargazing board: where to stand, which object to watch, and whether the sky will cooperate."
 		supportingCopy={[
@@ -548,4 +566,26 @@
 			</aside>
 		</div>
 	</section>
+
+	<footer class="orbital-shell mt-12 sm:mt-16">
+		<div class="orbital-footer">
+			<div class="space-y-3">
+				<p class="orbital-footer-label">Orbital Window brand note</p>
+				<h2 class="orbital-footer-title">A satellite board designed like field equipment, not a generic telemetry toy.</h2>
+				<p class="orbital-copy max-w-3xl text-sm leading-7 sm:text-base">
+					Orbital Window is its own brand: observatory-like, civilian, and practical. The interface is meant
+					to feel like a trusted night-sky instrument for people who want to step outside with intent.
+				</p>
+			</div>
+
+			<a
+				class="orbital-footer-link"
+				href="https://omartrkzi.com"
+				target="_blank"
+				rel="noreferrer"
+			>
+				Visit omartrkzi.com
+			</a>
+		</div>
+	</footer>
 </div>
